@@ -6,13 +6,14 @@ export default function CardProject({ img, projectName, frontend, backend, host,
     <div className="my-3">
      
         <Link to={link}>
-          <div className="border-2 hover:shadow-2xl hover:scale-105 border-gray-500 duration-300 overflow-hidden rounded-md">
+          <div className="border-2 hover:shadow-2xl hover:scale-105 p-0.5 bg-gradient-to-r from-blue-500 to-purple-500
+           border-gray-500 duration-300 overflow-hidden rounded-md">
             <img
               src={img}
               className="w-96 h-44 object-cover object-top overflow-hidden"
               alt=""
             />
-            <div className="p-2 font-bold border-t-2 border-gray-500 overflow-hidden">
+            <div className="p-2 font-bold border-t-2 bg-white border-gray-500 overflow-hidden">
               <h1>
                 Project Name :
                 <span className="text-blue-500 font-medium"> {projectName}</span>
